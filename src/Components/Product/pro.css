@@ -1,0 +1,120 @@
+.product{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 8%;
+ 
+   
+}
+
+.Con{
+    padding: 1rem;
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Con h1{
+    font-size: 3rem;
+    color: rgb(68, 68, 68);
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Con h2{
+    margin-top: 2.5rem;
+    color: rgb(201, 198, 198);
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Con .btn{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 0.7rem 1.5rem;
+  margin: 1rem 0;
+  background-color: rgb(253, 114, 114);
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  display: flex;
+  border-radius: 20px;
+  border: none;
+}
+.b-grid{
+    max-width: 1440px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+
+}
+.b-grid .card-a{
+    /* max-width: 45vw; */
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+.card-a .icons{
+    font-size: 4rem;
+    margin: 1rem;
+    color: rgb(255, 93, 93);
+}
+.card-a h2 {
+    color: rgb(31, 30, 30);
+    font-size: 1.9rem;
+    
+
+}
+.card-a p {
+    font-size: 1.2rem ;
+    color: rgb(158, 157, 157);
+    margin-bottom:1rem ;
+}
+.card-a a{
+    font-size: 1.2rem ;
+    font-weight: 500;
+    color: red;
+    margin-bottom: 1rem;
+}
+
+@media only screen and (max-width:940px) {
+
+    .b-grid{
+        
+         display: grid;
+         grid-template-columns: repeat(1 ,2fr);
+     
+     }
+     .b-grid .card-a{
+      
+         text-align: center;
+         padding: 1rem;
+         margin: 1rem;
+     }
+     .card-a .icons{
+         font-size: 4rem;
+         margin: 1rem;
+         color: rgb(255, 93, 93);
+     }
+     .card-a h2 {
+         color: rgb(31, 30, 30);
+         font-size: 1.5rem;
+         margin: 0.5rem;
+         
+     
+     }
+     .card-a p {
+         font-size: 1.2rem ;
+         color: rgb(214, 213, 213);
+         margin-bottom:1rem ;
+     }
+     .card-a a{
+         font-size: 1.2rem ;
+         font-weight: 500;
+         color: red;
+     }
+}

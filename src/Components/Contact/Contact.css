@@ -1,0 +1,195 @@
+.contact {
+    width: 100%;
+    height: 100%;
+    margin: 4.5rem 0;
+}
+.can{
+    
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.can h1{
+     font-size: 4rem;
+     font-weight: 100;
+     color: #707070;
+     margin-bottom: 1.5rem;
+}
+.flexs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 1.5rem;
+}
+.pro label{
+    font-size: 1.4rem;
+    color: #3d3d3d;
+    margin: 1rem ;
+}
+.pros{
+    margin: 1rem;
+    margin-left: 1rem;
+}
+.pros input{
+    width: 30vw;
+    padding: 1rem 3.2rem;
+    border: 1px solid rgb(134, 134, 134);
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+.pros input:focus{
+   outline: none;
+}
+.pros input::placeholder{
+    font-size: 1.5rem;
+    padding-left: .5rem;
+}
+.pros .pro1{
+    position: absolute;
+    font-size: 1.5rem;
+   /* padding: 1rem; */
+   margin: .8rem;
+
+}
+.pro2 label{
+    font-size: 1.4rem;
+    color: #3d3d3d;
+    margin: 1rem ;
+}
+.pros1{
+    margin: 1rem;
+    margin-left: 1rem;
+}
+.pros1 input{
+    width: 30vw;
+    padding: 1rem 3rem;
+    border: 1px solid rgb(175, 175, 175);
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+.pros1 input:focus{
+   outline: none;
+}
+.pros1 input::placeholder{
+    font-size: 1.5rem;
+    padding-left: .5rem;
+}
+.pros1 .pro3{
+    position: absolute;
+    font-size: 1.5rem;
+   /* padding: 1rem; */
+   margin: .8rem;
+
+}
+.mss{
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: start; */
+
+
+}
+.mas2{
+    max-width: 1200px;
+    margin: auto;
+}
+.mss textarea{
+    margin:1rem 5rem;
+    width: 61vw;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid rgb(175, 175, 175);
+    font-size: 1.1rem;
+
+}
+.mss textarea::placeholder{
+    font-size: 1.4rem;
+    color: #3d3d3d;
+}
+.tests label{
+    margin:1rem 5rem;
+    font-size: 1.4rem;
+    color: #3d3d3d;
+}
+ .btc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+ }
+ .btc button{
+    padding:1rem 2rem;
+    color: #fff;
+    font-size: 2rem;
+    background-color: rgb(252, 67, 67);
+    border: none;
+    border-radius: 5px;
+ }
+
+ @media only screen and (max-width:940px) {
+    .can{
+    
+        max-width: 1200px;
+        margin: auto;
+        display: block;
+      
+    }
+    .flexs{
+        display: grid;
+        grid-template-columns: 1fr ;
+        margin-bottom: 1.5rem;
+    }
+    .pro label{
+        font-size: 1.4rem;
+        color: #3d3d3d;
+        margin: 1rem ;
+    }
+    .pros1 input{
+        width: 100%;
+        padding: 1rem 3rem;
+        border: 1px solid rgb(175, 175, 175);
+        font-size: 1.1rem;
+        border-radius: 5px;
+    }
+    .pros input{
+        width: 100%;
+        padding: 1rem 3rem;
+        border: 1px solid rgb(175, 175, 175);
+        font-size: 1.1rem;
+        border-radius: 5px;
+    }
+    .pros1{
+        margin: .2rem;
+        /* margin-left: 1rem; */
+    }
+    .pros{
+        margin: .2rem;
+        /* margin-left: 1rem; */
+    }
+    .mss{
+        /* max-width: 1200px; */
+      
+        display: block;
+       
+    
+    
+    }
+    .mss textarea{
+        margin:0.5rem ;
+        /* width: 61vw; */
+        padding: 1rem;
+        border-radius: 5px;
+        border: 1px solid rgb(175, 175, 175);
+        font-size: 1.1rem;
+    
+    }
+    .tests label{
+        margin:1rem;
+        font-size: 1.4rem;
+        color: #3d3d3d;
+    }
+ }

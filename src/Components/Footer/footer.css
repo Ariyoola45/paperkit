@@ -1,0 +1,44 @@
+.footer{
+    width: 100%;
+    position: relative;
+    height: 100px;
+    top: 100%;
+}
+
+.context-b{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footcon{
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    
+}
+.footcon li{
+    padding: 1rem;
+}
+.footcon li a {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: gray;
+}
+.footword p{
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: gray;
+}
+.footword p .heart{
+    color: rgb(255, 59, 59);
+}
+
+@media only screen and (max-width:940px){
+    .context-b{
+        display: flex;
+        flex-direction: column;
+        justify-content:center ;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+}
